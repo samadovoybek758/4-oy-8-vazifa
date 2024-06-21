@@ -1,15 +1,15 @@
 let arr=[6,5,2,1]
 // 20-masala
-// function maxMin(arr){
-//     let arr2=[]
-//     for (let i = 0; i < arr.length; i++) {
+function maxMin(arr){
+    let arr2=[]
+    for (let i = 0; i < arr.length; i++) {
         
-//         arr2.unshift(arr[i])
-//         arr2.unshift(arr[i])
-//     }
-//     return arr2
-// }
-// console.log(maxMin(arr));
+        arr2.push(arr[i])
+        arr2.push(arr[i])
+    }
+    return arr2
+}
+console.log(maxMin(arr));
 
 
 // 32-masala
@@ -82,7 +82,7 @@ let arr=[6,5,2,1]
 
 
 
-// 4-masala
+// 5-masala
 // massivning birinchi elementi juft bulsa ixtiyoriy toq songa almashtiring
 // function juft(arr) {
 //     let first =arr[0]
